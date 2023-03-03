@@ -38,8 +38,80 @@ Fundador de dicho estudio y del consorcio Grupo XScorpions.">
 }</script>
     <meta name="theme-color" content="#8f63b4">
     <meta property="og:type" content="website">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-home-page="Tlacatecutli-Navarro.html" data-home-page-title="Tlacatecutli Navarro" class="u-body u-overlap u-overlap-contrast u-white u-xl-mode" data-lang="es"><header class="u-clearfix u-header u-sticky u-sticky-5d6b u-header" id="sec-e8ca"><div class="u-clearfix u-sheet u-sheet-1">
+  <script>
+    function gdprConfirmed() {
+        return true;
+    }
+    function dynamicLoadScript() {
+        var script = document.createElement('script');
+        script.src = 'https://www.google.com/recaptcha/api.js?render=6LdtWKokAAAAAEdOaU3cAhotoa7h81vUfUM7e5Z0';
+        script.async = true;
+        document.body.appendChild(script);
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+        var confirmButton = document.querySelector('.u-cookies-consent .u-button-confirm');
+        if (confirmButton) {
+            confirmButton.onclick = dynamicLoadScript;
+        }
+    });
+    </script>
+    <script>
+    if (gdprConfirmed()) {
+        document.write("<sc" + "ript src=\"https://www.google.com/recaptcha/api.js?render=6LdtWKokAAAAAEdOaU3cAhotoa7h81vUfUM7e5Z0\"></sc" + "ript>");
+    }
+    </script>
+    <script>
+    if (gdprConfirmed()) {
+        (function (grecaptcha, sitekey, actions) {
+            var recaptcha = {
+                execute: function (action, submitFormCb) {
+                    try {
+                        grecaptcha.execute(
+                            sitekey,
+                            {action: action}
+                        ).then(function (token) {
+                            var forms = document.getElementsByTagName('form');
+
+                            for (var i = 0; i < forms.length; i++) {
+                                var fields = forms[i].getElementsByTagName('input');
+
+                                for (var j = 0; j < fields.length; j++) {
+                                    var field = fields[j];
+
+                                    if ('recaptchaResponse' === field.getAttribute('name')) {
+                                        field.setAttribute('value', token);
+                                        break;
+                                    }
+                                }
+                            }
+                            submitFormCb();
+                        });
+                    } catch (e) {
+                        var formError = document.querySelector('.u-form-send-error');
+
+                        if (formError) {
+                            formError.innerText = 'Error del propietario del sitio: ' + e.message.replace(/:[\s\S]*/, '');
+                            formError.style.display = 'block';
+                        }
+                    }
+                },
+
+                executeContact: function (submitFormCb) {
+                    recaptcha.execute(actions['contact'], submitFormCb);
+                }
+            };
+
+            window.recaptchaObject = recaptcha;
+        })(
+            grecaptcha,
+            
+            '6LdtWKokAAAAAEdOaU3cAhotoa7h81vUfUM7e5Z0',
+            {'contact': 'contact'}
+        );
+    }
+    </script>
+<meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body data-home-page="Tlacatecutli-Navarro.html" data-home-page-title="Tlacatecutli Navarro" class="u-body u-overlap u-overlap-contrast u-white u-xl-mode" data-lang="es"><header class="u-clearfix u-grey-10 u-header u-sticky u-sticky-5d6b u-header" id="sec-e8ca"><div class="u-clearfix u-sheet u-sheet-1">
         <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="1000" data-image-height="1000">
           <img src="images/imageblack.png" class="u-logo-image u-logo-image-1">
         </a>
@@ -89,7 +161,7 @@ Fundador de dicho estudio y del consorcio Grupo XScorpions.">
           <div class="u-align-left u-container-style u-custom-color-1 u-list-item u-radius-20 u-repeater-item u-shape-round u-list-item-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-direction="Right" data-animation-delay="500">
             <div class="u-container-layout u-similar-container u-valign-middle-lg u-container-layout-2"><span class="u-file-icon u-icon u-text-white u-icon-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750"><img src="images/1384023-0c28b5ac.png" alt=""></span>
               <p class="u-text u-text-2" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="500" data-lang-en="<a href=&quot;https://nicepage.dev&quot; class=&quot;u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-button-link u-button-style u-hover-none u-none u-radius-0 u-text-body-alt-color u-top-left-radius-0 u-top-right-radius-0 u-btn-1&quot; style=&quot;background-image: none; border-style: solid; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0&quot;>​337-4139538</a><br>MON - FRI...8AM - 7PM">
-                <a href="https://nicepage.dev" class="u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-button-link u-button-style u-hover-none u-none u-radius-0 u-text-body-alt-color u-top-left-radius-0 u-top-right-radius-0 u-btn-1" data-lang-en="{&quot;content&quot;:&quot;​337-4139538&quot;,&quot;href&quot;:&quot;https://nicepage.dev&quot;}">55 6632 5852</a>
+                <a href="tel:55 6632 5852" class="u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-bottom-left-radius-0 u-bottom-right-radius-0 u-btn u-button-link u-button-style u-hover-none u-none u-radius-0 u-text-body-alt-color u-top-left-radius-0 u-top-right-radius-0 u-btn-1" data-lang-en="{&quot;content&quot;:&quot;​337-4139538&quot;,&quot;href&quot;:&quot;https://nicepage.dev&quot;}">55 6632 5852</a>
                 <br>Lunes - Viernes 10AM - 5PM
               </p>
             </div>
@@ -97,9 +169,9 @@ Fundador de dicho estudio y del consorcio Grupo XScorpions.">
           <div class="u-align-left u-container-style u-custom-color-1 u-list-item u-radius-20 u-repeater-item u-shape-round u-list-item-3" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-direction="Right" data-animation-delay="500">
             <div class="u-container-layout u-similar-container u-valign-middle-lg u-container-layout-3"><span class="u-file-icon u-icon u-text-white u-icon-3" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="750"><img src="images/953810-feb2a91c.png" alt=""></span>
               <p class="u-text u-text-3" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="500" data-lang-en="<a href=&quot;mailto:contact@nicepage.com&quot; class=&quot;u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2&quot; data-animation-name=&quot;&quot; data-animation-duration=&quot;0&quot; data-animation-delay=&quot;0&quot; data-animation-direction=&quot;&quot; style=&quot;border-style: solid; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0&quot;>​contact@nicepage.com</a><br><a href=&quot;mailto:info@nicepage.com&quot; class=&quot;u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3&quot; data-animation-name=&quot;&quot; data-animation-duration=&quot;0&quot; data-animation-delay=&quot;0&quot; data-animation-direction=&quot;&quot; style=&quot;border-style: solid; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0&quot;>info@nicepage.com</a>">
-                <a href="mailto:contact@nicepage.com" class="u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="" data-lang-en="{&quot;content&quot;:&quot;​contact@nicepage.com&quot;,&quot;href&quot;:&quot;mailto:contact@nicepage.com&quot;}">tnavarro@email.com</a>
+                <a href="mailto:tnavarro@email.com" class="u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="" data-lang-en="{&quot;content&quot;:&quot;​contact@nicepage.com&quot;,&quot;href&quot;:&quot;mailto:contact@nicepage.com&quot;}">tnavarro@email.com</a>
                 <br>
-                <a href="mailto:info@nicepage.com" class="u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="" data-lang-en="{&quot;content&quot;:&quot;info@nicepage.com&quot;,&quot;href&quot;:&quot;mailto:info@nicepage.com&quot;}">t<span style="font-size: 0.875rem;">lacatecutli@grupoxscorpions.com</span>
+                <a href="mailto:tlacatecutli@grupoxscorpions.com" class="u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-3" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="" data-lang-en="{&quot;content&quot;:&quot;info@nicepage.com&quot;,&quot;href&quot;:&quot;mailto:info@nicepage.com&quot;}">t<span style="font-size: 0.875rem;">lacatecutli@grupoxscorpions.com</span>
                   <span style="font-size: 0.875rem;"></span>
                 </a>
               </p>
@@ -419,7 +491,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                 <div class="u-layout-col">
                   <div class="u-size-30">
                     <div class="u-layout-row">
-                      <div class="u-container-align-center u-container-style u-image u-layout-cell u-size-30 u-image-4" data-image-width="898" data-image-height="898" data-animation-name="customAnimationIn" data-animation-duration="1500">
+                      <div class="u-container-align-center u-container-style u-image u-layout-cell u-size-30 u-image-4" data-image-width="1280" data-image-height="854" data-animation-name="customAnimationIn" data-animation-duration="1500">
                         <div class="u-container-layout u-container-layout-5"></div>
                       </div>
                       <div class="u-container-style u-layout-cell u-size-30 u-white u-layout-cell-3">
@@ -488,7 +560,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
             </div>
             <div class="u-align-center u-container-style u-list-item u-radius-20 u-repeater-item u-shape-round u-video-cover u-white u-list-item-2" data-animation-name="customAnimationIn" data-animation-duration="1500" data-animation-delay="500">
               <div class="u-container-layout u-similar-container u-container-layout-2">
-                <img class="u-expanded-width u-image u-image-round u-top-left-radius-10 u-top-right-radius-10 u-image-2" src="images/1675305744609.jpg" alt="" data-image-width="1600" data-image-height="1226">
+                <img class="u-expanded-width u-image u-image-round u-top-left-radius-10 u-top-right-radius-10 u-image-2" src="images/oratoria.jpg" alt="" data-image-width="1111" data-image-height="581">
                 <h4 class="u-custom-font u-font-roboto-condensed u-hover-feature u-text u-text-5" data-lang-en="​A Corporate Identity ">Orador</h4>
                 <p class="u-hover-feature u-text u-text-6" data-lang-en="​​Graphic Design">Escuelas</p>
               </div>
@@ -527,9 +599,9 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                   <p class="u-text u-text-3" data-lang-en="3045 10 Sunrize Avenue, 123-456-7890<br>Mon – Fri: 9:00 am – 8:00 pm,<br>Sat – Sun: 9:00 am – 10 pm">Lunes – Viernes: 10:00 am – 5:00 pm,<br>Sábado: 10:00 am – 2:00 pm
                   </p>
                   <p class="u-text u-text-4" data-lang-en="<a href=&quot;mailto:contact@nicepage.com&quot; class=&quot;u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1&quot; data-animation-name=&quot;&quot; data-animation-duration=&quot;0&quot; data-animation-delay=&quot;0&quot; data-animation-direction=&quot;&quot; style=&quot;border-style: solid; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0&quot;>​contact@nicepage.com</a><br><a href=&quot;mailto:info@nicepage.com&quot; class=&quot;u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2&quot; data-animation-name=&quot;&quot; data-animation-duration=&quot;0&quot; data-animation-delay=&quot;0&quot; data-animation-direction=&quot;&quot; style=&quot;border-style: solid; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0&quot;>info@nicepage.com</a>">
-                    <a href="mailto:contact@nicepage.com" class="u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="" data-lang-en="{&quot;content&quot;:&quot;​contact@nicepage.com&quot;,&quot;href&quot;:&quot;mailto:contact@nicepage.com&quot;}"> tnavarro@email.com</a>
+                    <a href="mailto:tnavarro@email.com" class="u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="" data-lang-en="{&quot;content&quot;:&quot;​contact@nicepage.com&quot;,&quot;href&quot;:&quot;mailto:contact@nicepage.com&quot;}"> tnavarro@email.com</a>
                     <br>
-                    <a href="mailto:info@nicepage.com" class="u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="" data-lang-en="{&quot;content&quot;:&quot;info@nicepage.com&quot;,&quot;href&quot;:&quot;mailto:info@nicepage.com&quot;}">tlacatecutli@grupoxscorpions.com</a>
+                    <a href="mailto:tlacatecutli@grupoxscorpions.com" class="u-active-none u-border-1 u-border-hover-white u-border-no-left u-border-no-right u-border-no-top u-border-palette-2-light-2 u-btn u-button-link u-button-style u-hover-none u-none u-text-body-alt-color u-btn-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="" data-lang-en="{&quot;content&quot;:&quot;info@nicepage.com&quot;,&quot;href&quot;:&quot;mailto:info@nicepage.com&quot;}">tlacatecutli@grupoxscorpions.com</a>
                   </p>
                   <h2 class="u-text u-text-5" data-lang-en="Follow us">Sigueme</h2>
                   <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
@@ -574,10 +646,11 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
                         </a>
                         <input type="submit" value="submit" class="u-form-control-hidden" wfd-invisible="true">
                       </div>
-                      <div class="u-form-send-message u-form-send-success" data-lang-en=" Thank you! Your message has been sent. "> Thank you! Your message has been sent. </div>
-                      <div class="u-form-send-error u-form-send-message" data-lang-en=" Unable to send your message. Please fix errors then try again. "> Unable to send your message. Please fix errors then try again. </div>
+                      <div class="u-form-send-message u-form-send-success" data-lang-en=" Thank you! Your message has been sent. ">¡Gracias por contactarme! Tu mensaje fue enviado con éxito.</div>
+                      <div class="u-form-send-error u-form-send-message" data-lang-en=" Unable to send your message. Please fix errors then try again. ">No ha podido enviarse el mensaje. Corrige los errores y vuelve a intentarlo.</div>
                       <input type="hidden" value="" name="recaptchaResponse" wfd-invisible="true">
                       <input type="hidden" name="formServices" value="f98e9e920eb196964bed8f9b57583386">
+                      <input type="hidden" name="siteKey" value="6LdtWKokAAAAAEdOaU3cAhotoa7h81vUfUM7e5Z0">
                     </form>
                   </div>
                 </div>
